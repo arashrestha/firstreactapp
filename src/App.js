@@ -15,10 +15,12 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <User name={"Aarash Shrestha"}/>
+        <User firstName={firstName} lastName={lastName}/>
       </div>
     );
   }
 }
 
+const firstName="Aarash"
+const lastName="Shrestha"
 export default App;
